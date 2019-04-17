@@ -1,0 +1,1 @@
+﻿ALTER TABLE Prodato ADD CONSTRAINT Prodato_Dobavljanje_FK FOREIGN KEY ( Dobavljanje_Artikal_SIF_ART, Dobavljanje_Kalk_SIF_KALK ) REFERENCES Dobavljanje ( Artikal_SIF_ART, Kalkulacija_SIF_KALK ) ;

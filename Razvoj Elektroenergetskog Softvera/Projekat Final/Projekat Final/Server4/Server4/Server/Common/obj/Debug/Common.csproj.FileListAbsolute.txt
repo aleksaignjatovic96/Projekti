@@ -1,0 +1,23 @@
+E:\RES\Server\Common\bin\Debug\Common.dll
+E:\RES\Server\Common\bin\Debug\Common.pdb
+E:\RES\Server\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\RES\Server\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+E:\RES\Server\Common\obj\Debug\Common.dll
+E:\RES\Server\Common\obj\Debug\Common.pdb
+C:\Users\Aleka\Desktop\Server\Common\bin\Debug\Common.dll
+C:\Users\Aleka\Desktop\Server\Common\bin\Debug\Common.pdb
+C:\Users\Aleka\Desktop\Server\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Aleka\Desktop\Server\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Aleka\Desktop\Server\Common\obj\Debug\Common.dll
+C:\Users\Aleka\Desktop\Server\Common\obj\Debug\Common.pdb
+D:\RES\Server4\Server\Common\bin\Debug\Common.dll
+D:\RES\Server4\Server\Common\bin\Debug\Common.pdb
+D:\RES\Server4\Server\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\RES\Server4\Server\Common\obj\Debug\Common.dll
+D:\RES\Server4\Server\Common\obj\Debug\Common.pdb
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\Common\bin\Debug\Common.dll
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\Common\bin\Debug\Common.pdb
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\Common\obj\Debug\Common.dll
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\Common\obj\Debug\Common.pdb

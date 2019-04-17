@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="25757b9bd87d422a84ac56c6d7290c07" Name="Diagram1">
+        <EntityTypeShape EntityType="FiskalnaKasaModel.Artikal" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.Dobavljanje" Width="1.5" PointX="5.125" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.Grupa" Width="1.5" PointX="0.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.JedinicaMere" Width="1.5" PointX="0.625" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.Kalkulacija" Width="1.5" PointX="3.125" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.Kasa" Width="1.5" PointX="8.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.Partner" Width="1.5" PointX="0.625" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.Racun" Width="1.5" PointX="7.5" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.Radnik" Width="1.5" PointX="0.625" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.Tarifa" Width="1.5" PointX="0.625" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.VrstaPlacanja" Width="1.5" PointX="9.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="FiskalnaKasaModel.Zaduzenje" Width="1.5" PointX="10.125" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="FiskalnaKasaModel.Artikal_Grupa_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Artikal_JedinicaMere_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Artikal_Tarifa_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Dobavljanje_Artikal_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Dobavljanje_Kalkulacija_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Kalkulacija_Partner_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Kalkulacija_Radnik_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Zaduženje_Kasa_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Racun_Zaduzenje_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Zaduženje_Radnik_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Placanje" ManuallyRouted="false" />
+        <AssociationConnector Association="FiskalnaKasaModel.Prodato" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

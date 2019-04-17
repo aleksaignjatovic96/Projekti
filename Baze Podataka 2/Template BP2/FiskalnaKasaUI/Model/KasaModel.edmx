@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FiskalnaKasaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Artikal">
+          <Key>
+            <PropertyRef Name="SIF_ART" />
+          </Key>
+          <Property Name="SIF_ART" Type="int" Nullable="false" />
+          <Property Name="Naziv" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="Cena" Type="int" Nullable="false" />
+          <Property Name="Min_Kolicina" Type="int" Nullable="false" />
+          <Property Name="Kolicina" Type="int" Nullable="false" />
+          <Property Name="BARCODE" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="JedinicaMere_SIF_JEDMER" Type="int" Nullable="false" />
+          <Property Name="Tarifa_SIF_TAR" Type="int" Nullable="false" />
+          <Property Name="Grupa_SIF_GRP" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Dobavljanje">
+          <Key>
+            <PropertyRef Name="Artikal_SIF_ART" />
+            <PropertyRef Name="Kalkulacija_SIF_KALK" />
+          </Key>
+          <Property Name="Kolicina" Type="int" Nullable="false" />
+          <Property Name="Cena_Dobavljaca" Type="int" Nullable="false" />
+          <Property Name="Marza_Procenat" Type="int" Nullable="false" />
+          <Property Name="Marza_Vrednost" Type="int" Nullable="false" />
+          <Property Name="Porez_Vrednost" Type="int" Nullable="false" />
+          <Property Name="Maloprodajna_Vrednost" Type="int" Nullable="false" />
+          <Property Name="Maloprodajna_Cena" Type="int" Nullable="false" />
+          <Property Name="Artikal_SIF_ART" Type="int" Nullable="false" />
+          <Property Name="Kalkulacija_SIF_KALK" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Grupa">
+          <Key>
+            <PropertyRef Name="SIF_GRP" />
+          </Key>
+          <Property Name="SIF_GRP" Type="int" Nullable="false" />
+          <Property Name="Naziv_Grupe" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="JedinicaMere">
+          <Key>
+            <PropertyRef Name="SIF_JEDMER" />
+          </Key>
+          <Property Name="SIF_JEDMER" Type="int" Nullable="false" />
+          <Property Name="Naziv_JediniceMere" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kalkulacija">
+          <Key>
+            <PropertyRef Name="SIF_KALK" />
+          </Key>
+          <Property Name="SIF_KALK" Type="int" Nullable="false" />
+          <Property Name="Datum_Kalkulacije" Type="date" Nullable="false" />
+          <Property Name="Partner_SIF_PART" Type="int" Nullable="false" />
+          <Property Name="Radnik_SIF_RAD" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kasa">
+          <Key>
+            <PropertyRef Name="SIF_KAS" />
+          </Key>
+          <Property Name="SIF_KAS" Type="int" Nullable="false" />
+          <Property Name="Opis_Kase" Type="varchar" MaxLength="200" Nullable="false" />
+          <Property Name="Datum_Servisa" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Partner">
+          <Key>
+            <PropertyRef Name="SIF_PART" />
+          </Key>
+          <Property Name="SIF_PART" Type="int" Nullable="false" />
+          <Property Name="Ime_Partnera" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="Adresa" Type="varchar" MaxLength="70" />
+          <Property Name="Telefon" Type="varchar" MaxLength="20" />
+          <Property Name="Ziro_Racun" Type="varchar" MaxLength="40" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Placanje">
+          <Key>
+            <PropertyRef Name="VrstaPlacanja_SIF_PLC" />
+            <PropertyRef Name="Racun_SIF_RAC" />
+          </Key>
+          <Property Name="VrstaPlacanja_SIF_PLC" Type="int" Nullable="false" />
+          <Property Name="Racun_SIF_RAC" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Prodato">
+          <Key>
+            <PropertyRef Name="Racun_SIF_RAC" />
+            <PropertyRef Name="Dobavljanje_Artikal_SIF_ART" />
+            <PropertyRef Name="Dobavljanje_Kalk_SIF_KALK" />
+          </Key>
+          <Property Name="Racun_SIF_RAC" Type="int" Nullable="false" />
+          <Property Name="Dobavljanje_Artikal_SIF_ART" Type="int" Nullable="false" />
+          <Property Name="Dobavljanje_Kalk_SIF_KALK" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Racun">
+          <Key>
+            <PropertyRef Name="SIF_RAC" />
+          </Key>
+          <Property Name="SIF_RAC" Type="int" Nullable="false" />
+          <Property Name="Datum_Izd" Type="date" Nullable="false" />
+          <Property Name="Zaduzenje_Kasa_SIF_KAS" Type="int" Nullable="false" />
+          <Property Name="Zaduzenje_Radnik_SIF_RAD" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Radnik">
+          <Key>
+            <PropertyRef Name="SIF_RAD" />
+          </Key>
+          <Property Name="SIF_RAD" Type="int" Nullable="false" />
+          <Property Name="Ime" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Prezime" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Username" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Password" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tarifa">
+          <Key>
+            <PropertyRef Name="SIF_TAR" />
+          </Key>
+          <Property Name="SIF_TAR" Type="int" Nullable="false" />
+          <Property Name="Opis_Tarife" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Stopa" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VrstaPlacanja">
+          <Key>
+            <PropertyRef Name="SIF_PLC" />
+          </Key>
+          <Property Name="SIF_PLC" Type="int" Nullable="false" />
+          <Property Name="Naziv_Placanja" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Zaduzenje">
+          <Key>
+            <PropertyRef Name="Kasa_SIF_KAS" />
+            <PropertyRef Name="Radnik_SIF_RAD" />
+          </Key>
+          <Property Name="Kasa_SIF_KAS" Type="int" Nullable="false" />
+          <Property Name="Radnik_SIF_RAD" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="Artikal_Grupa_FK">
+          <End Role="Grupa" Type="Self.Grupa" Multiplicity="1" />
+          <End Role="Artikal" Type="Self.Artikal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Grupa">
+              <PropertyRef Name="SIF_GRP" />
+            </Principal>
+            <Dependent Role="Artikal">
+              <PropertyRef Name="Grupa_SIF_GRP" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Artikal_JedinicaMere_FK">
+          <End Role="JedinicaMere" Type="Self.JedinicaMere" Multiplicity="1" />
+          <End Role="Artikal" Type="Self.Artikal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="JedinicaMere">
+              <PropertyRef Name="SIF_JEDMER" />
+            </Principal>
+            <Dependent Role="Artikal">
+              <PropertyRef Name="JedinicaMere_SIF_JEDMER" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Artikal_Tarifa_FK">
+          <End Role="Tarifa" Type="Self.Tarifa" Multiplicity="1" />
+          <End Role="Artikal" Type="Self.Artikal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tarifa">
+              <PropertyRef Name="SIF_TAR" />
+            </Principal>
+            <Dependent Role="Artikal">
+              <PropertyRef Name="Tarifa_SIF_TAR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Dobavljanje_Artikal_FK">
+          <End Role="Artikal" Type="Self.Artikal" Multiplicity="1" />
+          <End Role="Dobavljanje" Type="Self.Dobavljanje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Artikal">
+              <PropertyRef Name="SIF_ART" />
+            </Principal>
+            <Dependent Role="Dobavljanje">
+              <PropertyRef Name="Artikal_SIF_ART" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Dobavljanje_Kalkulacija_FK">
+          <End Role="Kalkulacija" Type="Self.Kalkulacija" Multiplicity="1" />
+          <End Role="Dobavljanje" Type="Self.Dobavljanje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kalkulacija">
+              <PropertyRef Name="SIF_KALK" />
+            </Principal>
+            <Dependent Role="Dobavljanje">
+              <PropertyRef Name="Kalkulacija_SIF_KALK" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Kalkulacija_Partner_FK">
+          <End Role="Partner" Type="Self.Partner" Multiplicity="1" />
+          <End Role="Kalkulacija" Type="Self.Kalkulacija" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Partner">
+              <PropertyRef Name="SIF_PART" />
+            </Principal>
+            <Dependent Role="Kalkulacija">
+              <PropertyRef Name="Partner_SIF_PART" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Kalkulacija_Radnik_FK">
+          <End Role="Radnik" Type="Self.Radnik" Multiplicity="1" />
+          <End Role="Kalkulacija" Type="Self.Kalkulacija" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Radnik">
+              <PropertyRef Name="SIF_RAD" />
+            </Principal>
+            <Dependent Role="Kalkulacija">
+              <PropertyRef Name="Radnik_SIF_RAD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Placanje_Racun_FK">
+          <End Role="Racun" Type="Self.Racun" Multiplicity="1" />
+          <End Role="Placanje" Type="Self.Placanje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Racun">
+              <PropertyRef Name="SIF_RAC" />
+            </Principal>
+            <Dependent Role="Placanje">
+              <PropertyRef Name="Racun_SIF_RAC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Placanje_VrstaPlacanja_FK">
+          <End Role="VrstaPlacanja" Type="Self.VrstaPlacanja" Multiplicity="1" />
+          <End Role="Placanje" Type="Self.Placanje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="VrstaPlacanja">
+              <PropertyRef Name="SIF_PLC" />
+            </Principal>
+            <Dependent Role="Placanje">
+              <PropertyRef Name="VrstaPlacanja_SIF_PLC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Prodato_Dobavljanje_FK">
+          <End Role="Dobavljanje" Type="Self.Dobavljanje" Multiplicity="1" />
+          <End Role="Prodato" Type="Self.Prodato" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dobavljanje">
+              <PropertyRef Name="Artikal_SIF_ART" />
+              <PropertyRef Name="Kalkulacija_SIF_KALK" />
+            </Principal>
+            <Dependent Role="Prodato">
+              <PropertyRef Name="Dobavljanje_Artikal_SIF_ART" />
+              <PropertyRef Name="Dobavljanje_Kalk_SIF_KALK" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Prodato_Racun_FK">
+          <End Role="Racun" Type="Self.Racun" Multiplicity="1" />
+          <End Role="Prodato" Type="Self.Prodato" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Racun">
+              <PropertyRef Name="SIF_RAC" />
+            </Principal>
+            <Dependent Role="Prodato">
+              <PropertyRef Name="Racun_SIF_RAC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Racun_Zaduzenje_FK">
+          <End Role="Zaduzenje" Type="Self.Zaduzenje" Multiplicity="1" />
+          <End Role="Racun" Type="Self.Racun" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Zaduzenje">
+              <PropertyRef Name="Kasa_SIF_KAS" />
+              <PropertyRef Name="Radnik_SIF_RAD" />
+            </Principal>
+            <Dependent Role="Racun">
+              <PropertyRef Name="Zaduzenje_Kasa_SIF_KAS" />
+              <PropertyRef Name="Zaduzenje_Radnik_SIF_RAD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Zaduženje_Kasa_FK">
+          <End Role="Kasa" Type="Self.Kasa" Multiplicity="1" />
+          <End Role="Zaduzenje" Type="Self.Zaduzenje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kasa">
+              <PropertyRef Name="SIF_KAS" />
+            </Principal>
+            <Dependent Role="Zaduzenje">
+              <PropertyRef Name="Kasa_SIF_KAS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Zaduženje_Radnik_FK">
+          <End Role="Radnik" Type="Self.Radnik" Multiplicity="1" />
+          <End Role="Zaduzenje" Type="Self.Zaduzenje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Radnik">
+              <PropertyRef Name="SIF_RAD" />
+            </Principal>
+            <Dependent Role="Zaduzenje">
+              <PropertyRef Name="Radnik_SIF_RAD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FiskalnaKasaModelStoreContainer">
+          <EntitySet Name="Artikal" EntityType="Self.Artikal" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dobavljanje" EntityType="Self.Dobavljanje" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Grupa" EntityType="Self.Grupa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="JedinicaMere" EntityType="Self.JedinicaMere" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kalkulacija" EntityType="Self.Kalkulacija" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kasa" EntityType="Self.Kasa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Partner" EntityType="Self.Partner" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Placanje" EntityType="Self.Placanje" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Prodato" EntityType="Self.Prodato" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Racun" EntityType="Self.Racun" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Radnik" EntityType="Self.Radnik" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tarifa" EntityType="Self.Tarifa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VrstaPlacanja" EntityType="Self.VrstaPlacanja" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Zaduzenje" EntityType="Self.Zaduzenje" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="Artikal_Grupa_FK" Association="Self.Artikal_Grupa_FK">
+            <End Role="Grupa" EntitySet="Grupa" />
+            <End Role="Artikal" EntitySet="Artikal" />
+          </AssociationSet>
+          <AssociationSet Name="Artikal_JedinicaMere_FK" Association="Self.Artikal_JedinicaMere_FK">
+            <End Role="JedinicaMere" EntitySet="JedinicaMere" />
+            <End Role="Artikal" EntitySet="Artikal" />
+          </AssociationSet>
+          <AssociationSet Name="Artikal_Tarifa_FK" Association="Self.Artikal_Tarifa_FK">
+            <End Role="Tarifa" EntitySet="Tarifa" />
+            <End Role="Artikal" EntitySet="Artikal" />
+          </AssociationSet>
+          <AssociationSet Name="Dobavljanje_Artikal_FK" Association="Self.Dobavljanje_Artikal_FK">
+            <End Role="Artikal" EntitySet="Artikal" />
+            <End Role="Dobavljanje" EntitySet="Dobavljanje" />
+          </AssociationSet>
+          <AssociationSet Name="Dobavljanje_Kalkulacija_FK" Association="Self.Dobavljanje_Kalkulacija_FK">
+            <End Role="Kalkulacija" EntitySet="Kalkulacija" />
+            <End Role="Dobavljanje" EntitySet="Dobavljanje" />
+          </AssociationSet>
+          <AssociationSet Name="Kalkulacija_Partner_FK" Association="Self.Kalkulacija_Partner_FK">
+            <End Role="Partner" EntitySet="Partner" />
+            <End Role="Kalkulacija" EntitySet="Kalkulacija" />
+          </AssociationSet>
+          <AssociationSet Name="Kalkulacija_Radnik_FK" Association="Self.Kalkulacija_Radnik_FK">
+            <End Role="Radnik" EntitySet="Radnik" />
+            <End Role="Kalkulacija" EntitySet="Kalkulacija" />
+          </AssociationSet>
+          <AssociationSet Name="Placanje_Racun_FK" Association="Self.Placanje_Racun_FK">
+            <End Role="Racun" EntitySet="Racun" />
+            <End Role="Placanje" EntitySet="Placanje" />
+          </AssociationSet>
+          <AssociationSet Name="Placanje_VrstaPlacanja_FK" Association="Self.Placanje_VrstaPlacanja_FK">
+            <End Role="VrstaPlacanja" EntitySet="VrstaPlacanja" />
+            <End Role="Placanje" EntitySet="Placanje" />
+          </AssociationSet>
+          <AssociationSet Name="Prodato_Dobavljanje_FK" Association="Self.Prodato_Dobavljanje_FK">
+            <End Role="Dobavljanje" EntitySet="Dobavljanje" />
+            <End Role="Prodato" EntitySet="Prodato" />
+          </AssociationSet>
+          <AssociationSet Name="Prodato_Racun_FK" Association="Self.Prodato_Racun_FK">
+            <End Role="Racun" EntitySet="Racun" />
+            <End Role="Prodato" EntitySet="Prodato" />
+          </AssociationSet>
+          <AssociationSet Name="Racun_Zaduzenje_FK" Association="Self.Racun_Zaduzenje_FK">
+            <End Role="Zaduzenje" EntitySet="Zaduzenje" />
+            <End Role="Racun" EntitySet="Racun" />
+          </AssociationSet>
+          <AssociationSet Name="Zaduženje_Kasa_FK" Association="Self.Zaduženje_Kasa_FK">
+            <End Role="Kasa" EntitySet="Kasa" />
+            <End Role="Zaduzenje" EntitySet="Zaduzenje" />
+          </AssociationSet>
+          <AssociationSet Name="Zaduženje_Radnik_FK" Association="Self.Zaduženje_Radnik_FK">
+            <End Role="Radnik" EntitySet="Radnik" />
+            <End Role="Zaduzenje" EntitySet="Zaduzenje" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FiskalnaKasaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Artikal">
+          <Key>
+            <PropertyRef Name="SIF_ART" />
+          </Key>
+          <Property Name="SIF_ART" Type="Int32" Nullable="false" />
+          <Property Name="Naziv" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Cena" Type="Int32" Nullable="false" />
+          <Property Name="Min_Kolicina" Type="Int32" Nullable="false" />
+          <Property Name="Kolicina" Type="Int32" Nullable="false" />
+          <Property Name="BARCODE" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="JedinicaMere_SIF_JEDMER" Type="Int32" Nullable="false" />
+          <Property Name="Tarifa_SIF_TAR" Type="Int32" Nullable="false" />
+          <Property Name="Grupa_SIF_GRP" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Grupa" Relationship="Self.Artikal_Grupa_FK" FromRole="Artikal" ToRole="Grupa" />
+          <NavigationProperty Name="JedinicaMere" Relationship="Self.Artikal_JedinicaMere_FK" FromRole="Artikal" ToRole="JedinicaMere" />
+          <NavigationProperty Name="Tarifa" Relationship="Self.Artikal_Tarifa_FK" FromRole="Artikal" ToRole="Tarifa" />
+          <NavigationProperty Name="Dobavljanjes" Relationship="Self.Dobavljanje_Artikal_FK" FromRole="Artikal" ToRole="Dobavljanje" />
+        </EntityType>
+        <EntityType Name="Dobavljanje">
+          <Key>
+            <PropertyRef Name="Artikal_SIF_ART" />
+            <PropertyRef Name="Kalkulacija_SIF_KALK" />
+          </Key>
+          <Property Name="Kolicina" Type="Int32" Nullable="false" />
+          <Property Name="Cena_Dobavljaca" Type="Int32" Nullable="false" />
+          <Property Name="Marza_Procenat" Type="Int32" Nullable="false" />
+          <Property Name="Marza_Vrednost" Type="Int32" Nullable="false" />
+          <Property Name="Porez_Vrednost" Type="Int32" Nullable="false" />
+          <Property Name="Maloprodajna_Vrednost" Type="Int32" Nullable="false" />
+          <Property Name="Maloprodajna_Cena" Type="Int32" Nullable="false" />
+          <Property Name="Artikal_SIF_ART" Type="Int32" Nullable="false" />
+          <Property Name="Kalkulacija_SIF_KALK" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Artikal" Relationship="Self.Dobavljanje_Artikal_FK" FromRole="Dobavljanje" ToRole="Artikal" />
+          <NavigationProperty Name="Kalkulacija" Relationship="Self.Dobavljanje_Kalkulacija_FK" FromRole="Dobavljanje" ToRole="Kalkulacija" />
+          <NavigationProperty Name="Racuns" Relationship="Self.Prodato" FromRole="Dobavljanje" ToRole="Racun" />
+        </EntityType>
+        <EntityType Name="Grupa">
+          <Key>
+            <PropertyRef Name="SIF_GRP" />
+          </Key>
+          <Property Name="SIF_GRP" Type="Int32" Nullable="false" />
+          <Property Name="Naziv_Grupe" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Artikals" Relationship="Self.Artikal_Grupa_FK" FromRole="Grupa" ToRole="Artikal" />
+        </EntityType>
+        <EntityType Name="JedinicaMere">
+          <Key>
+            <PropertyRef Name="SIF_JEDMER" />
+          </Key>
+          <Property Name="SIF_JEDMER" Type="Int32" Nullable="false" />
+          <Property Name="Naziv_JediniceMere" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Artikals" Relationship="Self.Artikal_JedinicaMere_FK" FromRole="JedinicaMere" ToRole="Artikal" />
+        </EntityType>
+        <EntityType Name="Kalkulacija">
+          <Key>
+            <PropertyRef Name="SIF_KALK" />
+          </Key>
+          <Property Name="SIF_KALK" Type="Int32" Nullable="false" />
+          <Property Name="Datum_Kalkulacije" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Partner_SIF_PART" Type="Int32" Nullable="false" />
+          <Property Name="Radnik_SIF_RAD" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Dobavljanjes" Relationship="Self.Dobavljanje_Kalkulacija_FK" FromRole="Kalkulacija" ToRole="Dobavljanje" />
+          <NavigationProperty Name="Partner" Relationship="Self.Kalkulacija_Partner_FK" FromRole="Kalkulacija" ToRole="Partner" />
+          <NavigationProperty Name="Radnik" Relationship="Self.Kalkulacija_Radnik_FK" FromRole="Kalkulacija" ToRole="Radnik" />
+        </EntityType>
+        <EntityType Name="Kasa">
+          <Key>
+            <PropertyRef Name="SIF_KAS" />
+          </Key>
+          <Property Name="SIF_KAS" Type="Int32" Nullable="false" />
+          <Property Name="Opis_Kase" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Datum_Servisa" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="Zaduzenjes" Relationship="Self.Zaduženje_Kasa_FK" FromRole="Kasa" ToRole="Zaduzenje" />
+        </EntityType>
+        <EntityType Name="Partner">
+          <Key>
+            <PropertyRef Name="SIF_PART" />
+          </Key>
+          <Property Name="SIF_PART" Type="Int32" Nullable="false" />
+          <Property Name="Ime_Partnera" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Adresa" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+          <Property Name="Telefon" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Ziro_Racun" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Kalkulacijas" Relationship="Self.Kalkulacija_Partner_FK" FromRole="Partner" ToRole="Kalkulacija" />
+        </EntityType>
+        <EntityType Name="Racun">
+          <Key>
+            <PropertyRef Name="SIF_RAC" />
+          </Key>
+          <Property Name="SIF_RAC" Type="Int32" Nullable="false" />
+          <Property Name="Datum_Izd" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Zaduzenje_Kasa_SIF_KAS" Type="Int32" Nullable="false" />
+          <Property Name="Zaduzenje_Radnik_SIF_RAD" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Zaduzenje" Relationship="Self.Racun_Zaduzenje_FK" FromRole="Racun" ToRole="Zaduzenje" />
+          <NavigationProperty Name="VrstaPlacanjas" Relationship="Self.Placanje" FromRole="Racun" ToRole="VrstaPlacanja" />
+          <NavigationProperty Name="Dobavljanjes" Relationship="Self.Prodato" FromRole="Racun" ToRole="Dobavljanje" />
+        </EntityType>
+        <EntityType Name="Radnik">
+          <Key>
+            <PropertyRef Name="SIF_RAD" />
+          </Key>
+          <Property Name="SIF_RAD" Type="Int32" Nullable="false" />
+          <Property Name="Ime" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Prezime" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Kalkulacijas" Relationship="Self.Kalkulacija_Radnik_FK" FromRole="Radnik" ToRole="Kalkulacija" />
+          <NavigationProperty Name="Zaduzenjes" Relationship="Self.Zaduženje_Radnik_FK" FromRole="Radnik" ToRole="Zaduzenje" />
+        </EntityType>
+        <EntityType Name="Tarifa">
+          <Key>
+            <PropertyRef Name="SIF_TAR" />
+          </Key>
+          <Property Name="SIF_TAR" Type="Int32" Nullable="false" />
+          <Property Name="Opis_Tarife" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Stopa" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Artikals" Relationship="Self.Artikal_Tarifa_FK" FromRole="Tarifa" ToRole="Artikal" />
+        </EntityType>
+        <EntityType Name="VrstaPlacanja">
+          <Key>
+            <PropertyRef Name="SIF_PLC" />
+          </Key>
+          <Property Name="SIF_PLC" Type="Int32" Nullable="false" />
+          <Property Name="Naziv_Placanja" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Racuns" Relationship="Self.Placanje" FromRole="VrstaPlacanja" ToRole="Racun" />
+        </EntityType>
+        <EntityType Name="Zaduzenje">
+          <Key>
+            <PropertyRef Name="Kasa_SIF_KAS" />
+            <PropertyRef Name="Radnik_SIF_RAD" />
+          </Key>
+          <Property Name="Kasa_SIF_KAS" Type="Int32" Nullable="false" />
+          <Property Name="Radnik_SIF_RAD" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Kasa" Relationship="Self.Zaduženje_Kasa_FK" FromRole="Zaduzenje" ToRole="Kasa" />
+          <NavigationProperty Name="Racuns" Relationship="Self.Racun_Zaduzenje_FK" FromRole="Zaduzenje" ToRole="Racun" />
+          <NavigationProperty Name="Radnik" Relationship="Self.Zaduženje_Radnik_FK" FromRole="Zaduzenje" ToRole="Radnik" />
+        </EntityType>
+        <Association Name="Artikal_Grupa_FK">
+          <End Role="Grupa" Type="Self.Grupa" Multiplicity="1" />
+          <End Role="Artikal" Type="Self.Artikal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Grupa">
+              <PropertyRef Name="SIF_GRP" />
+            </Principal>
+            <Dependent Role="Artikal">
+              <PropertyRef Name="Grupa_SIF_GRP" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Artikal_JedinicaMere_FK">
+          <End Role="JedinicaMere" Type="Self.JedinicaMere" Multiplicity="1" />
+          <End Role="Artikal" Type="Self.Artikal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="JedinicaMere">
+              <PropertyRef Name="SIF_JEDMER" />
+            </Principal>
+            <Dependent Role="Artikal">
+              <PropertyRef Name="JedinicaMere_SIF_JEDMER" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Artikal_Tarifa_FK">
+          <End Role="Tarifa" Type="Self.Tarifa" Multiplicity="1" />
+          <End Role="Artikal" Type="Self.Artikal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tarifa">
+              <PropertyRef Name="SIF_TAR" />
+            </Principal>
+            <Dependent Role="Artikal">
+              <PropertyRef Name="Tarifa_SIF_TAR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Dobavljanje_Artikal_FK">
+          <End Role="Artikal" Type="Self.Artikal" Multiplicity="1" />
+          <End Role="Dobavljanje" Type="Self.Dobavljanje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Artikal">
+              <PropertyRef Name="SIF_ART" />
+            </Principal>
+            <Dependent Role="Dobavljanje">
+              <PropertyRef Name="Artikal_SIF_ART" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Dobavljanje_Kalkulacija_FK">
+          <End Role="Kalkulacija" Type="Self.Kalkulacija" Multiplicity="1" />
+          <End Role="Dobavljanje" Type="Self.Dobavljanje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kalkulacija">
+              <PropertyRef Name="SIF_KALK" />
+            </Principal>
+            <Dependent Role="Dobavljanje">
+              <PropertyRef Name="Kalkulacija_SIF_KALK" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Kalkulacija_Partner_FK">
+          <End Role="Partner" Type="Self.Partner" Multiplicity="1" />
+          <End Role="Kalkulacija" Type="Self.Kalkulacija" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Partner">
+              <PropertyRef Name="SIF_PART" />
+            </Principal>
+            <Dependent Role="Kalkulacija">
+              <PropertyRef Name="Partner_SIF_PART" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Kalkulacija_Radnik_FK">
+          <End Role="Radnik" Type="Self.Radnik" Multiplicity="1" />
+          <End Role="Kalkulacija" Type="Self.Kalkulacija" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Radnik">
+              <PropertyRef Name="SIF_RAD" />
+            </Principal>
+            <Dependent Role="Kalkulacija">
+              <PropertyRef Name="Radnik_SIF_RAD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Zaduženje_Kasa_FK">
+          <End Role="Kasa" Type="Self.Kasa" Multiplicity="1" />
+          <End Role="Zaduzenje" Type="Self.Zaduzenje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kasa">
+              <PropertyRef Name="SIF_KAS" />
+            </Principal>
+            <Dependent Role="Zaduzenje">
+              <PropertyRef Name="Kasa_SIF_KAS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Racun_Zaduzenje_FK">
+          <End Role="Zaduzenje" Type="Self.Zaduzenje" Multiplicity="1" />
+          <End Role="Racun" Type="Self.Racun" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Zaduzenje">
+              <PropertyRef Name="Kasa_SIF_KAS" />
+              <PropertyRef Name="Radnik_SIF_RAD" />
+            </Principal>
+            <Dependent Role="Racun">
+              <PropertyRef Name="Zaduzenje_Kasa_SIF_KAS" />
+              <PropertyRef Name="Zaduzenje_Radnik_SIF_RAD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Zaduženje_Radnik_FK">
+          <End Role="Radnik" Type="Self.Radnik" Multiplicity="1" />
+          <End Role="Zaduzenje" Type="Self.Zaduzenje" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Radnik">
+              <PropertyRef Name="SIF_RAD" />
+            </Principal>
+            <Dependent Role="Zaduzenje">
+              <PropertyRef Name="Radnik_SIF_RAD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Placanje">
+          <End Role="Racun" Type="Self.Racun" Multiplicity="*" />
+          <End Role="VrstaPlacanja" Type="Self.VrstaPlacanja" Multiplicity="*" />
+        </Association>
+        <Association Name="Prodato">
+          <End Role="Dobavljanje" Type="Self.Dobavljanje" Multiplicity="*" />
+          <End Role="Racun" Type="Self.Racun" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="FiskalnaKasaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Artikals" EntityType="Self.Artikal" />
+          <EntitySet Name="Dobavljanjes" EntityType="Self.Dobavljanje" />
+          <EntitySet Name="Grupas" EntityType="Self.Grupa" />
+          <EntitySet Name="JedinicaMeres" EntityType="Self.JedinicaMere" />
+          <EntitySet Name="Kalkulacijas" EntityType="Self.Kalkulacija" />
+          <EntitySet Name="Kasas" EntityType="Self.Kasa" />
+          <EntitySet Name="Partners" EntityType="Self.Partner" />
+          <EntitySet Name="Racuns" EntityType="Self.Racun" />
+          <EntitySet Name="Radniks" EntityType="Self.Radnik" />
+          <EntitySet Name="Tarifas" EntityType="Self.Tarifa" />
+          <EntitySet Name="VrstaPlacanjas" EntityType="Self.VrstaPlacanja" />
+          <EntitySet Name="Zaduzenjes" EntityType="Self.Zaduzenje" />
+          <AssociationSet Name="Artikal_Grupa_FK" Association="Self.Artikal_Grupa_FK">
+            <End Role="Grupa" EntitySet="Grupas" />
+            <End Role="Artikal" EntitySet="Artikals" />
+          </AssociationSet>
+          <AssociationSet Name="Artikal_JedinicaMere_FK" Association="Self.Artikal_JedinicaMere_FK">
+            <End Role="JedinicaMere" EntitySet="JedinicaMeres" />
+            <End Role="Artikal" EntitySet="Artikals" />
+          </AssociationSet>
+          <AssociationSet Name="Artikal_Tarifa_FK" Association="Self.Artikal_Tarifa_FK">
+            <End Role="Tarifa" EntitySet="Tarifas" />
+            <End Role="Artikal" EntitySet="Artikals" />
+          </AssociationSet>
+          <AssociationSet Name="Dobavljanje_Artikal_FK" Association="Self.Dobavljanje_Artikal_FK">
+            <End Role="Artikal" EntitySet="Artikals" />
+            <End Role="Dobavljanje" EntitySet="Dobavljanjes" />
+          </AssociationSet>
+          <AssociationSet Name="Dobavljanje_Kalkulacija_FK" Association="Self.Dobavljanje_Kalkulacija_FK">
+            <End Role="Kalkulacija" EntitySet="Kalkulacijas" />
+            <End Role="Dobavljanje" EntitySet="Dobavljanjes" />
+          </AssociationSet>
+          <AssociationSet Name="Kalkulacija_Partner_FK" Association="Self.Kalkulacija_Partner_FK">
+            <End Role="Partner" EntitySet="Partners" />
+            <End Role="Kalkulacija" EntitySet="Kalkulacijas" />
+          </AssociationSet>
+          <AssociationSet Name="Kalkulacija_Radnik_FK" Association="Self.Kalkulacija_Radnik_FK">
+            <End Role="Radnik" EntitySet="Radniks" />
+            <End Role="Kalkulacija" EntitySet="Kalkulacijas" />
+          </AssociationSet>
+          <AssociationSet Name="Zaduženje_Kasa_FK" Association="Self.Zaduženje_Kasa_FK">
+            <End Role="Kasa" EntitySet="Kasas" />
+            <End Role="Zaduzenje" EntitySet="Zaduzenjes" />
+          </AssociationSet>
+          <AssociationSet Name="Racun_Zaduzenje_FK" Association="Self.Racun_Zaduzenje_FK">
+            <End Role="Zaduzenje" EntitySet="Zaduzenjes" />
+            <End Role="Racun" EntitySet="Racuns" />
+          </AssociationSet>
+          <AssociationSet Name="Zaduženje_Radnik_FK" Association="Self.Zaduženje_Radnik_FK">
+            <End Role="Radnik" EntitySet="Radniks" />
+            <End Role="Zaduzenje" EntitySet="Zaduzenjes" />
+          </AssociationSet>
+          <AssociationSet Name="Placanje" Association="Self.Placanje">
+            <End Role="Racun" EntitySet="Racuns" />
+            <End Role="VrstaPlacanja" EntitySet="VrstaPlacanjas" />
+          </AssociationSet>
+          <AssociationSet Name="Prodato" Association="Self.Prodato">
+            <End Role="Dobavljanje" EntitySet="Dobavljanjes" />
+            <End Role="Racun" EntitySet="Racuns" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FiskalnaKasaModelStoreContainer" CdmEntityContainer="FiskalnaKasaEntities">
+          <EntitySetMapping Name="Artikals">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.Artikal">
+              <MappingFragment StoreEntitySet="Artikal">
+                <ScalarProperty Name="SIF_ART" ColumnName="SIF_ART" />
+                <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+                <ScalarProperty Name="Cena" ColumnName="Cena" />
+                <ScalarProperty Name="Min_Kolicina" ColumnName="Min_Kolicina" />
+                <ScalarProperty Name="Kolicina" ColumnName="Kolicina" />
+                <ScalarProperty Name="BARCODE" ColumnName="BARCODE" />
+                <ScalarProperty Name="JedinicaMere_SIF_JEDMER" ColumnName="JedinicaMere_SIF_JEDMER" />
+                <ScalarProperty Name="Tarifa_SIF_TAR" ColumnName="Tarifa_SIF_TAR" />
+                <ScalarProperty Name="Grupa_SIF_GRP" ColumnName="Grupa_SIF_GRP" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dobavljanjes">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.Dobavljanje">
+              <MappingFragment StoreEntitySet="Dobavljanje">
+                <ScalarProperty Name="Kolicina" ColumnName="Kolicina" />
+                <ScalarProperty Name="Cena_Dobavljaca" ColumnName="Cena_Dobavljaca" />
+                <ScalarProperty Name="Marza_Procenat" ColumnName="Marza_Procenat" />
+                <ScalarProperty Name="Marza_Vrednost" ColumnName="Marza_Vrednost" />
+                <ScalarProperty Name="Porez_Vrednost" ColumnName="Porez_Vrednost" />
+                <ScalarProperty Name="Maloprodajna_Vrednost" ColumnName="Maloprodajna_Vrednost" />
+                <ScalarProperty Name="Maloprodajna_Cena" ColumnName="Maloprodajna_Cena" />
+                <ScalarProperty Name="Artikal_SIF_ART" ColumnName="Artikal_SIF_ART" />
+                <ScalarProperty Name="Kalkulacija_SIF_KALK" ColumnName="Kalkulacija_SIF_KALK" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Grupas">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.Grupa">
+              <MappingFragment StoreEntitySet="Grupa">
+                <ScalarProperty Name="SIF_GRP" ColumnName="SIF_GRP" />
+                <ScalarProperty Name="Naziv_Grupe" ColumnName="Naziv_Grupe" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JedinicaMeres">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.JedinicaMere">
+              <MappingFragment StoreEntitySet="JedinicaMere">
+                <ScalarProperty Name="SIF_JEDMER" ColumnName="SIF_JEDMER" />
+                <ScalarProperty Name="Naziv_JediniceMere" ColumnName="Naziv_JediniceMere" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kalkulacijas">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.Kalkulacija">
+              <MappingFragment StoreEntitySet="Kalkulacija">
+                <ScalarProperty Name="SIF_KALK" ColumnName="SIF_KALK" />
+                <ScalarProperty Name="Datum_Kalkulacije" ColumnName="Datum_Kalkulacije" />
+                <ScalarProperty Name="Partner_SIF_PART" ColumnName="Partner_SIF_PART" />
+                <ScalarProperty Name="Radnik_SIF_RAD" ColumnName="Radnik_SIF_RAD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kasas">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.Kasa">
+              <MappingFragment StoreEntitySet="Kasa">
+                <ScalarProperty Name="SIF_KAS" ColumnName="SIF_KAS" />
+                <ScalarProperty Name="Opis_Kase" ColumnName="Opis_Kase" />
+                <ScalarProperty Name="Datum_Servisa" ColumnName="Datum_Servisa" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Partners">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.Partner">
+              <MappingFragment StoreEntitySet="Partner">
+                <ScalarProperty Name="SIF_PART" ColumnName="SIF_PART" />
+                <ScalarProperty Name="Ime_Partnera" ColumnName="Ime_Partnera" />
+                <ScalarProperty Name="Adresa" ColumnName="Adresa" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="Ziro_Racun" ColumnName="Ziro_Racun" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Racuns">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.Racun">
+              <MappingFragment StoreEntitySet="Racun">
+                <ScalarProperty Name="SIF_RAC" ColumnName="SIF_RAC" />
+                <ScalarProperty Name="Datum_Izd" ColumnName="Datum_Izd" />
+                <ScalarProperty Name="Zaduzenje_Kasa_SIF_KAS" ColumnName="Zaduzenje_Kasa_SIF_KAS" />
+                <ScalarProperty Name="Zaduzenje_Radnik_SIF_RAD" ColumnName="Zaduzenje_Radnik_SIF_RAD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Radniks">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.Radnik">
+              <MappingFragment StoreEntitySet="Radnik">
+                <ScalarProperty Name="SIF_RAD" ColumnName="SIF_RAD" />
+                <ScalarProperty Name="Ime" ColumnName="Ime" />
+                <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tarifas">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.Tarifa">
+              <MappingFragment StoreEntitySet="Tarifa">
+                <ScalarProperty Name="SIF_TAR" ColumnName="SIF_TAR" />
+                <ScalarProperty Name="Opis_Tarife" ColumnName="Opis_Tarife" />
+                <ScalarProperty Name="Stopa" ColumnName="Stopa" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VrstaPlacanjas">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.VrstaPlacanja">
+              <MappingFragment StoreEntitySet="VrstaPlacanja">
+                <ScalarProperty Name="SIF_PLC" ColumnName="SIF_PLC" />
+                <ScalarProperty Name="Naziv_Placanja" ColumnName="Naziv_Placanja" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Zaduzenjes">
+            <EntityTypeMapping TypeName="FiskalnaKasaModel.Zaduzenje">
+              <MappingFragment StoreEntitySet="Zaduzenje">
+                <ScalarProperty Name="Kasa_SIF_KAS" ColumnName="Kasa_SIF_KAS" />
+                <ScalarProperty Name="Radnik_SIF_RAD" ColumnName="Radnik_SIF_RAD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="Placanje" TypeName="FiskalnaKasaModel.Placanje" StoreEntitySet="Placanje">
+            <EndProperty Name="Racun">
+              <ScalarProperty Name="SIF_RAC" ColumnName="Racun_SIF_RAC" />
+            </EndProperty>
+            <EndProperty Name="VrstaPlacanja">
+              <ScalarProperty Name="SIF_PLC" ColumnName="VrstaPlacanja_SIF_PLC" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="Prodato" TypeName="FiskalnaKasaModel.Prodato" StoreEntitySet="Prodato">
+            <EndProperty Name="Dobavljanje">
+              <ScalarProperty Name="Artikal_SIF_ART" ColumnName="Dobavljanje_Artikal_SIF_ART" />
+              <ScalarProperty Name="Kalkulacija_SIF_KALK" ColumnName="Dobavljanje_Kalk_SIF_KALK" />
+            </EndProperty>
+            <EndProperty Name="Racun">
+              <ScalarProperty Name="SIF_RAC" ColumnName="Racun_SIF_RAC" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

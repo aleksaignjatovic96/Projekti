@@ -1,0 +1,14 @@
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\bin\Debug\pz4.exe.config
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\bin\Debug\pz4.exe
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\bin\Debug\pz4.pdb
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\MainWindow.g.cs
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\App.g.cs
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\pz4_MarkupCompile.cache
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\pz4_MarkupCompile.lref
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\MainWindow.baml
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\pz4.g.resources
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\pz4.Properties.Resources.resources
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\pz4.csproj.GenerateResource.Cache
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\pz4.exe
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\pz4.pdb
+C:\Users\KICA\Desktop\grafika1\pz4\pz4\obj\Debug\pz4.csprojResolveAssemblyReference.cache

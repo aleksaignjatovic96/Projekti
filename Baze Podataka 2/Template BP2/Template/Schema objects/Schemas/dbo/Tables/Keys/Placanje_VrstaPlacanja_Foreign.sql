@@ -1,0 +1,1 @@
+﻿ALTER TABLE Placanje ADD CONSTRAINT Placanje_VrstaPlacanja_FK FOREIGN KEY ( VrstaPlacanja_SIF_PLC ) REFERENCES VrstaPlacanja ( SIF_PLC ) ;

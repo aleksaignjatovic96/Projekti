@@ -1,0 +1,100 @@
+﻿<UserControl x:Class="FiskalnaKasaUI.View.ArtikalView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FiskalnaKasaUI.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+
+    <DockPanel >
+
+        <TextBlock Text="Artikli" DockPanel.Dock="Top" Foreground="White" Margin="10" FontSize="14" FontWeight="Bold"/>
+
+
+        <StackPanel DockPanel.Dock="Top" Margin="10" >
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Sifra Artikla:" Width="110" Margin="5" Foreground="White"/>
+                <TextBox  Text="{Binding Sifra}" Width="60" Margin="5"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Naziv  artikla:" Width="110" Margin="5" Foreground="White"/>
+                <TextBox Text="{Binding Naziv}" Width="200" Margin="5"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Cena:" Width="110" Margin="5" Foreground="White"/>
+                <TextBox Text="{Binding Cena}" Width="200" Margin="5"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Min.kolicina:" Width="110" Margin="5" Foreground="White"/>
+                <TextBox Text="{Binding Min_Kolicina}" Width="200" Margin="5"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Kolicina:" Width="110" Margin="5" Foreground="White"/>
+                <TextBox Text="{Binding Kolicina}" Width="200" Margin="5"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="BARCODE:" Width="110" Margin="5" Foreground="White"/>
+                <TextBox Text="{Binding BARCODE}" Width="200" Margin="5"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Jedinica Mere:" Width="110" Margin="5" Foreground="White"/>
+                <TextBox Text="{Binding JedinicaMere_SIF_JEDMER}" Width="200" Margin="5"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Tarifa:" Width="110" Margin="5" Foreground="White"/>
+                <TextBox Text="{Binding Tarifa_SIF_TAR}" Width="200" Margin="5"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Grupa:" Width="110" Margin="5" Foreground="White"/>
+                <TextBox Text="{Binding Grupa_SIF_GRP}" Width="200" Margin="5"/>
+            </StackPanel>
+
+
+            <StackPanel Orientation="Horizontal" Margin="3">
+                <Button x:Name="btnsubmit" Command="{Binding SaveICommand}" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="3" />
+                <Button x:Name="btnadd" Content="{Binding ButtonAddContent}" Command="{Binding AddICommand}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="3"/>
+                <Button x:Name="btndelete" Command="{Binding DeleteICommand}" Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="3" />
+
+            </StackPanel>
+
+        </StackPanel>
+
+        <DataGrid x:Name="grupaDataGrid"  
+                  IsReadOnly="True"
+                  SelectionUnit="FullRow"
+                  RowHeaderWidth="0"
+                  Margin="0,0,0,0" 
+                  RowDetailsVisibilityMode="VisibleWhenSelected" 
+                  EnableRowVirtualization="True" 
+                  AutoGenerateColumns="False" 
+                  ItemsSource="{Binding Collection.View}" 
+                  SelectedItem="{Binding SelectedItem,Mode=TwoWay,NotifyOnSourceUpdated=True}"
+                  >
+
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="sifraColumn" Binding="{Binding SIF_ART}" Header="Sifra" Width="60"/>
+                <DataGridTextColumn x:Name="nazivColumn" Binding="{Binding Naziv}" Header="Naziv grupe" Width="*"/>
+                <DataGridTextColumn x:Name="cenaColumn" Binding="{Binding Cena}" Header="Cena" Width="*"/>
+                <DataGridTextColumn x:Name="minColumn" Binding="{Binding Min_Kolicina}" Header="Min.kolicina" Width="*"/>
+                <DataGridTextColumn x:Name="kolicinaColumn" Binding="{Binding Kolicina}" Header="Naziv grupe" Width="*"/>
+                <DataGridTextColumn x:Name="barkodColumn" Binding="{Binding BARCODE}" Header="BARCODE" Width="*"/>
+                <DataGridTextColumn x:Name="jedColumn" Binding="{Binding JedinicaMere_SIF_JEDMER}" Header="Jedinica" Width="*"/>
+                <DataGridTextColumn x:Name="tarColumn" Binding="{Binding Tarifa_SIF_TAR}" Header="Tarifa" Width="*"/>
+                <DataGridTextColumn x:Name="grupavColumn" Binding="{Binding Grupa_SIF_GRP}" Header="Grupa" Width="*"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </DockPanel>
+
+</UserControl>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz4", "pz4.csproj", "{BBB1D79F-0263-42E2-8BFC-E035D55DCD90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB1D79F-0263-42E2-8BFC-E035D55DCD90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB1D79F-0263-42E2-8BFC-E035D55DCD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB1D79F-0263-42E2-8BFC-E035D55DCD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB1D79F-0263-42E2-8BFC-E035D55DCD90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E295D7AB-A1E1-4D1F-95D6-6F531451ED53}
+	EndGlobalSection
+EndGlobal

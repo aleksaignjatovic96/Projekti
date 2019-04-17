@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1516213576 source:c:\users\aleka\desktop\projekti c\projekat4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1516213576 source:c:\users\aleka\desktop\bp1psi_aleksa_ignjatovic_pr141-2015\bp1psi_aleksa_ignjatovic_pr141-2015\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

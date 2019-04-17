@@ -1,0 +1,70 @@
+14:25:33 16 January 2018 Log fajl obrisan !!! 
+14:26:42 16 January 2018 Start NetworkService 
+14:27:23 16 January 2018 Objekat_1:11034 
+14:27:26 16 January 2018 Objekat_3:16780 
+14:27:28 16 January 2018 Objekat_6:13113 
+14:27:33 16 January 2018 Objekat_6:10196 
+14:27:38 16 January 2018 Objekat_1:6945 
+14:27:40 16 January 2018 Objekat_9:11805 
+14:27:43 16 January 2018 Objekat_12:9607 
+14:27:46 16 January 2018 Objekat_12:15761 
+14:27:49 16 January 2018 Objekat_10:18768 
+14:27:53 16 January 2018 Objekat_8:16585 
+14:27:56 16 January 2018 Objekat_6:18141 
+14:28:02 16 January 2018 Objekat_2:16201 
+14:28:07 16 January 2018 Objekat_8:8949 
+14:28:09 16 January 2018 Objekat_9:9582 
+14:28:14 16 January 2018 Objekat_12:9671 
+14:28:17 16 January 2018 Objekat_1:4418 
+14:28:21 16 January 2018 Objekat_6:18657 
+14:28:24 16 January 2018 Objekat_7:4110 
+14:28:26 16 January 2018 Objekat_8:7248 
+14:28:44 16 January 2018 Start NetworkService 
+14:30:29 16 January 2018 Objekat_12:4594 
+14:30:33 16 January 2018 Objekat_4:18742 
+14:30:36 16 January 2018 Objekat_9:10474 
+14:30:41 16 January 2018 Objekat_5:4569 
+14:30:47 16 January 2018 Objekat_14:9365 
+14:30:52 16 January 2018 Objekat_9:16836 
+14:30:57 16 January 2018 Objekat_8:3101 
+14:31:02 16 January 2018 Objekat_11:10416 
+14:31:06 16 January 2018 Objekat_3:10307 
+14:31:11 16 January 2018 Objekat_6:8520 
+14:31:16 16 January 2018 Objekat_2:18964 
+14:31:18 16 January 2018 Objekat_9:3833 
+14:33:59 16 January 2018 Start NetworkService 
+14:35:18 16 January 2018 Objekat_6:5305 
+14:35:21 16 January 2018 Objekat_14:8465 
+14:35:24 16 January 2018 Objekat_13:14804 
+14:35:26 16 January 2018 Objekat_6:16792 
+14:35:32 16 January 2018 Objekat_14:15279 
+14:35:35 16 January 2018 Objekat_1:8924 
+14:35:39 16 January 2018 Objekat_14:12581 
+14:35:42 16 January 2018 Objekat_9:5919 
+14:35:47 16 January 2018 Objekat_7:13156 
+14:35:50 16 January 2018 Objekat_12:5982 
+14:35:54 16 January 2018 Objekat_11:15675 
+14:35:57 16 January 2018 Objekat_0:4421 
+14:36:06 16 January 2018 Objekat_4:14254 
+14:36:06 16 January 2018 Objekat_1:14262 
+14:36:07 16 January 2018 Objekat_9:17470 
+14:36:13 16 January 2018 Objekat_5:18327 
+14:36:17 16 January 2018 Objekat_2:14646 
+14:36:21 16 January 2018 Objekat_12:15659 
+14:36:26 16 January 2018 Objekat_3:15531 
+14:36:32 16 January 2018 Objekat_11:10520 
+14:36:36 16 January 2018 Objekat_12:4590 
+14:36:41 16 January 2018 Objekat_8:13957 
+14:36:43 16 January 2018 Objekat_12:17684 
+14:36:48 16 January 2018 Objekat_4:16058 
+14:36:52 16 January 2018 Objekat_6:16441 
+14:36:58 16 January 2018 Objekat_14:3298 
+14:42:06 16 January 2018 Objekat_1:8402 
+14:42:09 16 January 2018 Objekat_15:5291 
+14:42:12 16 January 2018 Objekat_0:15060 
+15:02:28 16 January 2018 Start NetworkService 
+15:17:13 16 January 2018 Start NetworkService 
+15:59:58 16 January 2018 Start NetworkService 
+16:08:05 16 January 2018 Start NetworkService 
+19:58:42 25 November 2018 Start NetworkService 
+17:47:46 17 April 2019 Start NetworkService 

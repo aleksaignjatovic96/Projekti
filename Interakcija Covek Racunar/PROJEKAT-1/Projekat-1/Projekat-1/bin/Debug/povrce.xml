@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ArrayOfPovrce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Povrce>
+    <Naziv>Paradajz</Naziv>
+    <Poreklo>Srbija</Poreklo>
+    <Cena>130</Cena>
+    <Zaliha>1000</Zaliha>
+    <Slika>file:///C:/Users/Aleka/Desktop/Projekti C%23/HCI/PROJEKAT-1/Projekat-1/Projekat-1/Povrce/paradajz.png</Slika>
+  </Povrce>
+</ArrayOfPovrce>

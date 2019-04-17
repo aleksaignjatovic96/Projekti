@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<ArrayOfPutevi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Putevi>
+    <ID>1</ID>
+    <Naziv>PUT E75</Naziv>
+    <Tip>Tip - IA</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>15060</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>2</ID>
+    <Naziv>PUT E25</Naziv>
+    <Tip>Tip - IA</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>8402</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>3</ID>
+    <Naziv>PUT E81</Naziv>
+    <Tip>Tip - IA</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>14646</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>10</ID>
+    <Naziv>PUT C112</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>15531</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>11</ID>
+    <Naziv>PUT C116</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>16058</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>12</ID>
+    <Naziv>PUT C210</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>18327</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>24</ID>
+    <Naziv>PUT B1102</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>16441</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>25</ID>
+    <Naziv>PUT B1112</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>13156</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>28</ID>
+    <Naziv>PUT B1119</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>13957</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>29</ID>
+    <Naziv>PUT B1124</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>17470</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>101</ID>
+    <Naziv>PUT A20012</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>18768</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>102</ID>
+    <Naziv>PUT A20013</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>10520</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>103</ID>
+    <Naziv>PUT A20014</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>17684</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>104</ID>
+    <Naziv>PUT A20018</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>14804</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>109</ID>
+    <Naziv>PUT A20020</Naziv>
+    <Tip>Tip - IB</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>3298</Vrednost>
+  </Putevi>
+  <Putevi>
+    <ID>4</ID>
+    <Naziv>ASASF</Naziv>
+    <Tip>Tip - IA</Tip>
+    <Ukljucen>false</Ukljucen>
+    <Vrednost>5291</Vrednost>
+  </Putevi>
+</ArrayOfPutevi>

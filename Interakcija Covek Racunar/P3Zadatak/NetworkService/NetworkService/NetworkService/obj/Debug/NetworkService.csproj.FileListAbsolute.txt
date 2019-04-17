@@ -1,0 +1,122 @@
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csprojResolveAssemblyReference.cache
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.Cache
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.g.cs
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.baml
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.g.cs
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\App.g.cs
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.baml
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.Cache
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csprojResolveAssemblyReference.cache
+I:\c#\PROJEKAT-3\HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csprojResolveAssemblyReference.cache
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.g.cs
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\App.g.cs
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.baml
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+I:\c#\PROJEKAT-3\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.Cache
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\NetworkService.csprojResolveAssemblyReference.cache
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\AddWindow.g.cs
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\App.g.cs
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\AddWindow.baml
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+I:\c#\PROJEKAT-3\src\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.Cache
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csprojResolveAssemblyReference.cache
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.g.cs
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.baml
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.Cache
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csprojResolveAssemblyReference.cache
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.g.cs
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.baml
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\Aleka\Desktop\MOJ HCI PSI PZ3 NetworkService(1)\MOJ HCI PSI PZ3 NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.Cache
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csprojResolveAssemblyReference.cache
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.g.cs
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\AddWindow.baml
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\Aleka\Desktop\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.Cache
+C:\Users\Aleka\Desktop\Projekti C#\HCI\P3Zadatak\NetworkService\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\Aleka\Desktop\Projekti C#\HCI\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\Aleka\Desktop\Projekti C#\HCI\P3Zadatak\NetworkService\NetworkService\NetworkService\obj\Debug\NetworkService.pdb

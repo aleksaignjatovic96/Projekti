@@ -1,0 +1,14 @@
+C:\Users\e3141-2015\Desktop\BLOK6\Template BP2\Template BP2\Template\bin\Debug\Template.dacpac
+C:\Users\e3141-2015\Desktop\BLOK6\Template BP2\Template BP2\Template\bin\Debug\Template.dll
+C:\Users\e3141-2015\Desktop\BLOK6\Template BP2\Template BP2\Template\bin\Debug\Template.pdb
+C:\Users\e3141-2015\Desktop\BLOK6\Template BP2\Template BP2\Template\obj\Debug\Template.dll
+C:\Users\e3141-2015\Desktop\BLOK6\Template BP2\Template BP2\Template\obj\Debug\Template.pdb
+C:\Users\e3141-2015\Desktop\BLOK6\Template BP2\Template BP2\Template\obj\Debug\Model.xml
+C:\Users\e3141-2015\Desktop\BLOK6\Template BP2\Template BP2\Template\obj\Debug\refactor.xml
+C:\Users\e3141-2015\Desktop\BLOK6\Template BP2\Template BP2\Template\obj\Debug\postdeploy.sql
+C:\Users\e3141-2015\Desktop\BLOK6\Template BP2\Template BP2\Template\obj\Debug\predeploy.sql
+C:\Users\KICA\Desktop\blok6\BLOK6\Template BP2\Template BP2\Template\bin\Debug\Template.dacpac
+C:\Users\KICA\Desktop\blok6\BLOK6\Template BP2\Template BP2\Template\bin\Debug\Template.dll
+C:\Users\KICA\Desktop\blok6\BLOK6\Template BP2\Template BP2\Template\bin\Debug\Template.pdb
+C:\Users\KICA\Desktop\blok6\BLOK6\Template BP2\Template BP2\Template\obj\Debug\Template.dll
+C:\Users\KICA\Desktop\blok6\BLOK6\Template BP2\Template BP2\Template\obj\Debug\Template.pdb

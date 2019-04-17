@@ -1,0 +1,1 @@
+﻿ALTER TABLE Artikal ADD CONSTRAINT Artikal_Grupa_FK FOREIGN KEY ( Grupa_SIF_GRP ) REFERENCES Grupa ( SIF_GRP ) ;

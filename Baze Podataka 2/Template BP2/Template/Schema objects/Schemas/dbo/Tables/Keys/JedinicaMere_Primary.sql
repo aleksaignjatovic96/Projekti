@@ -1,0 +1,1 @@
+﻿ALTER TABLE JedinicaMere ADD CONSTRAINT JedinicaMere_PK PRIMARY KEY ( SIF_JEDMER ) ;

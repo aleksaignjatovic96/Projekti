@@ -1,0 +1,1 @@
+﻿ALTER TABLE Zaduzenje ADD CONSTRAINT Zaduženje_Kasa_FK FOREIGN KEY ( Kasa_SIF_KAS ) REFERENCES Kasa ( SIF_KAS ) ;

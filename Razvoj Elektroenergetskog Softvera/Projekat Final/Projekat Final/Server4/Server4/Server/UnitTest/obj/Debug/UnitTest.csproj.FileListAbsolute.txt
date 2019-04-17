@@ -1,0 +1,15 @@
+D:\RES\Server4\Server\UnitTest\bin\Debug\UnitTest.dll
+D:\RES\Server4\Server\UnitTest\bin\Debug\UnitTest.pdb
+D:\RES\Server4\Server\UnitTest\bin\Debug\Common.dll
+D:\RES\Server4\Server\UnitTest\bin\Debug\Moq.dll
+D:\RES\Server4\Server\UnitTest\bin\Debug\nunit.framework.dll
+D:\RES\Server4\Server\UnitTest\bin\Debug\Server.exe
+D:\RES\Server4\Server\UnitTest\bin\Debug\itextsharp.dll
+D:\RES\Server4\Server\UnitTest\bin\Debug\Common.pdb
+D:\RES\Server4\Server\UnitTest\bin\Debug\Server.pdb
+D:\RES\Server4\Server\UnitTest\bin\Debug\Server.exe.config
+D:\RES\Server4\Server\UnitTest\bin\Debug\itextsharp.xml
+D:\RES\Server4\Server\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+D:\RES\Server4\Server\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+D:\RES\Server4\Server\UnitTest\obj\Debug\UnitTest.dll
+D:\RES\Server4\Server\UnitTest\obj\Debug\UnitTest.pdb

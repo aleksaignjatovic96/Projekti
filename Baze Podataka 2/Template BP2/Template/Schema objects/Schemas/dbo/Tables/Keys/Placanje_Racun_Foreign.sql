@@ -1,0 +1,1 @@
+﻿ALTER TABLE Placanje ADD CONSTRAINT Placanje_Racun_FK FOREIGN KEY ( Racun_SIF_RAC ) REFERENCES Racun ( SIF_RAC ) ;

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\Server4\Server4\Server\UnitTest\bin\Debug\UnitTest.dll" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-06-05" time="22:26:33">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8830" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\Server4\Server4\Server\NUnit-2.6.4\NUnit-2.6.4\bin" machine-name="DESKTOP-88BC4JP" user="Aleka" user-domain="DESKTOP-88BC4JP" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\Server4\Server4\Server\UnitTest\bin\Debug\UnitTest.dll" executed="True" result="Failure" success="False" time="0.009" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="UnitTest" executed="True" result="Failure" success="False" time="0.008" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="ServerTest" executed="True" result="Failure" success="False" time="0.008" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="UnosIspadaDobar" executed="True" result="Failure" success="False" time="0.007" asserts="0">
+                <results>
+                  <test-case name="UnitTest.ServerTest.UnosIspadaDobar(78,12/12/2018 12:12:12,SrednjiNapon,&quot;Kvar Tranformatora&quot;,Novo,Common.Element,System.Collections.Generic.List`1[Common.Akcija],0)" executed="True" result="Failure" success="False" time="0.005" asserts="1">
+                    <failure>
+                      <message><![CDATA[  Expected: No Exception to be thrown
+  But was:   (The creator of this fault did not specify a Reason.)
+   at Server.WCFService.Validacija(ListaSvihIspada lista, Int32 idIspada, String idElementa, Int32 radnja) in D:\RES\Server4\Server\Server\WCFService.cs:line 245
+   at Server.WCFService.UnosPodatakaOIspadu(Int32 id, DateTime vreme, Naponski_Nivo naponski_Nivo, String opis, Status status, Element element, List`1 listaAkcija, Int32 radnja) in D:\RES\Server4\Server\Server\WCFService.cs:line 27
+   at UnitTest.ServerTest.<>c__DisplayClass1_0.<UnosIspadaDobar>b__0() in D:\RES\Server4\Server\UnitTest\ServerTest.cs:line 31
+   at NUnit.Framework.Constraints.VoidInvocationDescriptor.Invoke()
+   at NUnit.Framework.Constraints.ExceptionInterceptor.Intercept(Object invocation)
+]]></message>
+                      <stack-trace><![CDATA[at UnitTest.ServerTest.UnosIspadaDobar(Int32 id, DateTime vreme, Naponski_Nivo naponski_Nivo, String opis, Status status, Element element, List`1 listaAkcija, Int32 radnja) in D:\RES\Server4\Server\UnitTest\ServerTest.cs:line 31
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

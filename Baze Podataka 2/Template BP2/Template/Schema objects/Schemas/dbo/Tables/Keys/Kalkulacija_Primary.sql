@@ -1,0 +1,1 @@
+﻿ALTER TABLE Kalkulacija ADD CONSTRAINT Kalkulacija_PK PRIMARY KEY ( SIF_KALK ) ;

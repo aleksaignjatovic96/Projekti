@@ -1,0 +1,1 @@
+﻿ALTER TABLE Dobavljanje ADD CONSTRAINT Dobavljanje_Kalkulacija_FK FOREIGN KEY ( Kalkulacija_SIF_KALK ) REFERENCES Kalkulacija ( SIF_KALK ) ;

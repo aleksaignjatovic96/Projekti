@@ -1,0 +1,1 @@
+﻿ALTER TABLE Artikal ADD CONSTRAINT Artikal_JedinicaMere_FK FOREIGN KEY ( JedinicaMere_SIF_JEDMER ) REFERENCES JedinicaMere ( SIF_JEDMER ) ;

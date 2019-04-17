@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Zaduzenje]
+(
+	Kasa_SIF_KAS   INTEGER NOT NULL ,
+    Radnik_SIF_RAD INTEGER NOT NULL
+)

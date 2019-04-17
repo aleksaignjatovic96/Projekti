@@ -1,0 +1,28 @@
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\bin\Release\PZ3_Server.exe.config
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\bin\Release\PZ3_Server.exe
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\bin\Release\PZ3_Server.pdb
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\PZ3_Server.csprojResolveAssemblyReference.cache
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\MainWindow.g.cs
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\App.g.cs
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\PZ3_Server_MarkupCompile.cache
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\PZ3_Server_MarkupCompile.lref
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\MainWindow.baml
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\PZ3_Server.g.resources
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\PZ3_Server.Properties.Resources.resources
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\PZ3_Server.csproj.GenerateResource.Cache
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\PZ3_Server.exe
+E:\!FTN\!HCI VEZBE\PZ3\PZ3_Server_T6\PZ3_Server\obj\Release\PZ3_Server.pdb
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\bin\Release\PZ3_Server.exe.config
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\bin\Release\PZ3_Server.exe
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\bin\Release\PZ3_Server.pdb
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\PZ3_Server.csprojResolveAssemblyReference.cache
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\MainWindow.g.cs
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\App.g.cs
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\PZ3_Server_MarkupCompile.cache
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\PZ3_Server_MarkupCompile.lref
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\MainWindow.baml
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\PZ3_Server.g.resources
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\PZ3_Server.Properties.Resources.resources
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\PZ3_Server.csproj.GenerateResource.Cache
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\PZ3_Server.exe
+C:\Users\Aleka\Desktop\Projekti C#\HCI\PROJEKAT-3\HCI PSI PZ3 T6\PZ3_MeteringSimulator_T6\PZ3_Server\obj\Release\PZ3_Server.pdb

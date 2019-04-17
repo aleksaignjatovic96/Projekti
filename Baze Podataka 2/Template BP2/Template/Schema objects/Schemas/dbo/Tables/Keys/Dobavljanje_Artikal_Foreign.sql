@@ -1,0 +1,1 @@
+﻿ALTER TABLE Dobavljanje ADD CONSTRAINT Dobavljanje_Artikal_FK FOREIGN KEY ( Artikal_SIF_ART ) REFERENCES Artikal ( SIF_ART ) ;

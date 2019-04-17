@@ -1,0 +1,42 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Artikal] (Table)
+       [dbo].[Dobavljanje] (Table)
+       [dbo].[Grupa] (Table)
+       [dbo].[JedinicaMere] (Table)
+       [dbo].[Kalkulacija] (Table)
+       [dbo].[Kasa] (Table)
+       [dbo].[Partner] (Table)
+       [dbo].[Placanje] (Table)
+       [dbo].[Prodato] (Table)
+       [dbo].[Racun] (Table)
+       [dbo].[Radnik] (Table)
+       [dbo].[Tarifa] (Table)
+       [dbo].[VrstaPlacanja] (Table)
+       [dbo].[Zaduzenje] (Table)
+       [dbo].[Artikal_Tarifa_FK] (Foreign Key)
+       [dbo].[Artikal_JedinicaMere_FK] (Foreign Key)
+       [dbo].[Artikal_Grupa_FK] (Foreign Key)
+       [dbo].[Dobavljanje_Kalkulacija_FK] (Foreign Key)
+       [dbo].[Dobavljanje_Artikal_FK] (Foreign Key)
+       [dbo].[Kalkulacija_Radnik_FK] (Foreign Key)
+       [dbo].[Kalkulacija_Partner_FK] (Foreign Key)
+       [dbo].[Placanje_Racun_FK] (Foreign Key)
+       [dbo].[Placanje_VrstaPlacanja_FK] (Foreign Key)
+       [dbo].[Prodato_Dobavljanje_FK] (Foreign Key)
+       [dbo].[Prodato_Racun_FK] (Foreign Key)
+       [dbo].[Racun_Zaduzenje_FK] (Foreign Key)
+       [dbo].[Zaduženje_Radnik_FK] (Foreign Key)
+       [dbo].[Zaduženje_Kasa_FK] (Foreign Key)
+
+** Supporting actions

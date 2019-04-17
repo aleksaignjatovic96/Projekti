@@ -1,0 +1,14 @@
+Navigation through the main menu - arrow keys to select the option and space to confirm 
+(DO NOT USE RETURN BUTTON (the left enter) FOR ANYTHING)
+Solo play - player 1 moves on arrows and shoots on enter key (the right one)
+Multiplayer - player 1 is the same, player 2 moves on wasd and shoots on space key
+When inside game if you want to go back to the main menu press escape button
+
+-Shoot down robots for points
+-Don't touch the walls - they are electric :)
+-When Otto the Enemy spawns avoid him at all costs
+-Even rarely the star will appear, collect it for extra life
+-You can leave the level whenever you want without any consequences 
+-When all of the players lose all lives the game ends, the player with the most points goes to the highscore
+
+ENJOY :)

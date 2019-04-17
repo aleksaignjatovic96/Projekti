@@ -1,0 +1,1 @@
+﻿ALTER TABLE Artikal ADD CONSTRAINT Artikal_Tarifa_FK FOREIGN KEY ( Tarifa_SIF_TAR ) REFERENCES Tarifa ( SIF_TAR ) ;

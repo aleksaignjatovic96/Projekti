@@ -1,0 +1,1 @@
+﻿ALTER TABLE Zaduzenje ADD CONSTRAINT Zaduzenje_PK PRIMARY KEY ( Kasa_SIF_KAS, Radnik_SIF_RAD ) ;

@@ -1,0 +1,47 @@
+D:\RES\UserInterfaceV2\UserInterfaceV2\bin\Debug\UserInterfaceV2.exe.config
+D:\RES\UserInterfaceV2\UserInterfaceV2\bin\Debug\UserInterfaceV2.exe
+D:\RES\UserInterfaceV2\UserInterfaceV2\bin\Debug\UserInterfaceV2.pdb
+D:\RES\UserInterfaceV2\UserInterfaceV2\bin\Debug\Common.dll
+D:\RES\UserInterfaceV2\UserInterfaceV2\bin\Debug\Common.pdb
+D:\RES\UserInterfaceV2\UserInterfaceV2\obj\Debug\UserInterfaceV2.csprojResolveAssemblyReference.cache
+D:\RES\UserInterfaceV2\UserInterfaceV2\obj\Debug\UserInterfaceV2.csproj.CoreCompileInputs.cache
+D:\RES\UserInterfaceV2\UserInterfaceV2\obj\Debug\UserInterfaceV2.exe
+D:\RES\UserInterfaceV2\UserInterfaceV2\obj\Debug\UserInterfaceV2.pdb
+E:\RES\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.exe.config
+E:\RES\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.exe
+E:\RES\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.pdb
+E:\RES\Server\UserInterfaceV2\bin\Debug\Common.dll
+E:\RES\Server\UserInterfaceV2\bin\Debug\Common.pdb
+E:\RES\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.csproj.CoreCompileInputs.cache
+E:\RES\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.exe
+E:\RES\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.pdb
+E:\RES\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.csprojResolveAssemblyReference.cache
+C:\Users\Aleka\Desktop\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.exe.config
+C:\Users\Aleka\Desktop\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.exe
+C:\Users\Aleka\Desktop\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.pdb
+C:\Users\Aleka\Desktop\Server\UserInterfaceV2\bin\Debug\Common.dll
+C:\Users\Aleka\Desktop\Server\UserInterfaceV2\bin\Debug\Common.pdb
+C:\Users\Aleka\Desktop\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.csprojResolveAssemblyReference.cache
+C:\Users\Aleka\Desktop\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.csproj.CoreCompileInputs.cache
+C:\Users\Aleka\Desktop\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.csproj.CopyComplete
+C:\Users\Aleka\Desktop\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.exe
+C:\Users\Aleka\Desktop\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.pdb
+D:\RES\Server4\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.exe.config
+D:\RES\Server4\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.exe
+D:\RES\Server4\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.pdb
+D:\RES\Server4\Server\UserInterfaceV2\bin\Debug\Common.dll
+D:\RES\Server4\Server\UserInterfaceV2\bin\Debug\Common.pdb
+D:\RES\Server4\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.csprojResolveAssemblyReference.cache
+D:\RES\Server4\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.csproj.CoreCompileInputs.cache
+D:\RES\Server4\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.exe
+D:\RES\Server4\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.pdb
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.exe.config
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.exe
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\UserInterfaceV2\bin\Debug\UserInterfaceV2.pdb
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\UserInterfaceV2\bin\Debug\Common.dll
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\UserInterfaceV2\bin\Debug\Common.pdb
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.csprojResolveAssemblyReference.cache
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.csproj.CoreCompileInputs.cache
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.csproj.CopyComplete
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.exe
+C:\Users\Aleka\Desktop\Projekti C#\Projekat Final\Projekat Final\Server4\Server4\Server\UserInterfaceV2\obj\Debug\UserInterfaceV2.pdb

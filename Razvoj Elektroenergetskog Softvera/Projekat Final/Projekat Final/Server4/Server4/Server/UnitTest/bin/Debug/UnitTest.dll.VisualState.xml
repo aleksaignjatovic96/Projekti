@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1047]C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\Server4\Server4\Server\UnitTest\bin\Debug\UnitTest.dll</TopNode>
+  <SelectedNode>[0-1034]UnitTest.ServerTest.UnosIspadaDobar(78,12/12/2018 12:12:12,SrednjiNapon,"Kvar Tranformatora",Novo,Common.Element,System.Collections.Generic.List`1[Common.Akcija],0)</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1047]C:\Users\Aleka\AppData\Roaming\Skype\My Skype Received Files\Server4\Server4\Server\UnitTest\bin\Debug\UnitTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1048]UnitTest" Expanded="true" />
+    <Node UniqueName="[0-1000]UnitTest.AkcijaTest" Expanded="true" />
+    <Node UniqueName="[0-1001]UnitTest.AkcijaTest.AkcijaKonstruktorDobar" Expanded="true" />
+    <Node UniqueName="[0-1007]UnitTest.AkcijaTest.AkcijaKonstruktorLos1" Expanded="true" />
+    <Node UniqueName="[0-1010]UnitTest.ElementaTest.ElementKonstruktorDobar" Expanded="true" />
+    <Node UniqueName="[0-1017]UnitTest.ElementaTest.ElementKonstruktorLos1" Expanded="true" />
+    <Node UniqueName="[0-1032]UnitTest.ServerTest" Expanded="true" />
+    <Node UniqueName="[0-1041]UnitTest.ServerTest.PrikazOdredjenogDobar" Expanded="true" />
+    <Node UniqueName="[0-1033]UnitTest.ServerTest.UnosIspadaDobar" Expanded="true" />
+    <Node UniqueName="[0-1037]UnitTest.ServerTest.UnosIspadaLos" Expanded="true" />
+  </Nodes>
+</VisualState>

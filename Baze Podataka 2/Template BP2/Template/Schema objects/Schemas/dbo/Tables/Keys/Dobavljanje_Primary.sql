@@ -1,0 +1,1 @@
+﻿ALTER TABLE Dobavljanje ADD CONSTRAINT Dobavljanje_PK PRIMARY KEY ( Artikal_SIF_ART, Kalkulacija_SIF_KALK ) ;

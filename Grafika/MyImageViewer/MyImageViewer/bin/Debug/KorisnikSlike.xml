@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Image>
+  <item UserName="Name">
+    <ImageTitle>test1.jpg</ImageTitle>
+    <ImageDescription>ddd</ImageDescription>
+    <ImageSource>C:\test1.jpg</ImageSource>
+  </item>
+  <item UserName="Name">
+    <ImageTitle>DSC_0324.JPG</ImageTitle>
+    <ImageDescription></ImageDescription>
+    <ImageSource>C:\Users\KICA\Desktop\DSC_0324.JPG</ImageSource>
+  </item>
+  <item UserName="Name">
+    <ImageTitle>images.jpg</ImageTitle>
+    <ImageDescription></ImageDescription>
+    <ImageSource>C:\Users\KICA\Desktop\images.jpg</ImageSource>
+  </item>
+  <item UserName="Name">
+    <ImageTitle>photosuru_img01[1]_2.png</ImageTitle>
+    <ImageDescription></ImageDescription>
+    <ImageSource>C:\Users\KICA\Desktop\photosuru_img01[1]_2.png</ImageSource>
+  </item>
+  <item UserName="Name">
+    <ImageTitle>DSC_0418.JPG</ImageTitle>
+    <ImageDescription></ImageDescription>
+    <ImageSource>C:\Users\KICA\Desktop\DSC_0418.JPG</ImageSource>
+  </item>
+  <item UserName="Name">
+    <ImageTitle>11</ImageTitle>
+    <ImageDescription></ImageDescription>
+    <ImageSource>/MyImageViewer;component/Resource/addimage.png</ImageSource>
+  </item>
+  <item UserName="Name">
+    <ImageTitle>6tag_220417-171533.jpg</ImageTitle>
+    <ImageDescription></ImageDescription>
+    <ImageSource>C:\Users\KICA\Desktop\6tag_220417-171533.jpg</ImageSource>
+  </item>
+  <item UserName="Name">
+    <ImageTitle>photosuru_img01[1]_2.png</ImageTitle>
+    <ImageDescription></ImageDescription>
+    <ImageSource>C:\Users\KICA\Desktop\photosuru_img01[1]_2.png</ImageSource>
+  </item>
+  <item UserName="Name">
+    <ImageTitle>images.jpg</ImageTitle>
+    <ImageDescription></ImageDescription>
+    <ImageSource>C:\Users\KICA\Desktop\images.jpg</ImageSource>
+  </item>
+  <item UserName="Name">
+    <ImageTitle>DSC_0418.JPG</ImageTitle>
+    <ImageDescription></ImageDescription>
+    <ImageSource>C:\Users\KICA\Desktop\DSC_0418.JPG</ImageSource>
+  </item>
+  <item UserName="1">
+    <ImageTitle>5555</ImageTitle>
+    <ImageDescription>jhjkh</ImageDescription>
+    <ImageSource>E:\bekap\Slike\1eab4d132f_99892678_o2.jpg</ImageSource>
+  </item>
+</Image>

@@ -1,0 +1,29 @@
+﻿<Window x:Class="NetworkService.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NetworkService"
+        mc:Ignorable="d"
+        Title="Prozor_Dodaj_PUT" Height="275.532" Width="337.234" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="Images/bg.png"/>
+    </Window.Background>
+    <Grid>
+        <TextBox x:Name="textBox_id" HorizontalAlignment="Left" Height="31" Margin="65,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" VerticalContentAlignment="Center"/>
+        <Label x:Name="label_id" Content="ID" HorizontalAlignment="Left" Height="31" Margin="20,39,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="textBox_naziv" HorizontalAlignment="Left" Height="31" Margin="65,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" VerticalContentAlignment="Center"/>
+        <Label x:Name="label_naziv" Content="Naziv" HorizontalAlignment="Left" Height="31" Margin="20,75,0,0" VerticalAlignment="Top" Width="40"/>
+        <Label x:Name="label_tip" Content="Tip" HorizontalAlignment="Left" Height="31" Margin="20,111,0,0" VerticalAlignment="Top" Width="40"/>
+        <ComboBox x:Name="comboBox_tip" HorizontalAlignment="Left" Height="31" Margin="65,111,0,0" VerticalAlignment="Top" Width="104" VerticalContentAlignment="Center">
+            <ComboBoxItem Content="Tip - IA"/>
+            <ComboBoxItem Content="Tip - IB"/>
+        </ComboBox>
+        <Button x:Name="button_dodaj" Content="Dodaj" HorizontalAlignment="Left" Height="37" Margin="110,190,0,0" VerticalAlignment="Top" Width="82" Click="button_dodaj_Click" FontSize="14.667"/>
+        <Button x:Name="button_odustani" Content="Odustani" HorizontalAlignment="Left" Height="37" Margin="220,190,0,0" VerticalAlignment="Top" Width="82" Click="button_odustani_Click" FontSize="14.667"/>
+        <Label x:Name="label_greska_id" Content="" HorizontalAlignment="Left" Height="31" Margin="184,39,0,0" VerticalAlignment="Top" Width="135"/>
+        <Label x:Name="label_greska_naziv" Content="" HorizontalAlignment="Left" Height="31" Margin="184,75,0,0" VerticalAlignment="Top" Width="135"/>
+        <Label x:Name="label_greska_tip" Content="" HorizontalAlignment="Left" Height="31" Margin="184,111,0,0" VerticalAlignment="Top" Width="135"/>
+
+    </Grid>
+</Window>

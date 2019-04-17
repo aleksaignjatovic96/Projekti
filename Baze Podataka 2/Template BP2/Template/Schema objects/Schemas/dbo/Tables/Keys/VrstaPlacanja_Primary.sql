@@ -1,0 +1,1 @@
+﻿ALTER TABLE VrstaPlacanja ADD CONSTRAINT VrstaPlacanja_PK PRIMARY KEY ( SIF_PLC ) ;

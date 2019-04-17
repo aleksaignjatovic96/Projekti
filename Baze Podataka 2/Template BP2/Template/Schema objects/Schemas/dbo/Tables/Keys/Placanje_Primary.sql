@@ -1,0 +1,1 @@
+﻿ALTER TABLE Placanje ADD CONSTRAINT Placanje_PK PRIMARY KEY ( VrstaPlacanja_SIF_PLC, Racun_SIF_RAC ) ;

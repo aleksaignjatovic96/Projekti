@@ -1,0 +1,1 @@
+﻿ALTER TABLE Prodato ADD CONSTRAINT Prodato_PK PRIMARY KEY ( Racun_SIF_RAC, Dobavljanje_Artikal_SIF_ART, Dobavljanje_Kalk_SIF_KALK ) ;

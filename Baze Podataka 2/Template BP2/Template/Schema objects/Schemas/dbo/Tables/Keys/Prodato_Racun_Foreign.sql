@@ -1,0 +1,1 @@
+﻿ALTER TABLE Prodato ADD CONSTRAINT Prodato_Racun_FK FOREIGN KEY ( Racun_SIF_RAC ) REFERENCES Racun ( SIF_RAC ) ;

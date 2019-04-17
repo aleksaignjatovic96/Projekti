@@ -1,0 +1,55 @@
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\PredmetniZadatak2.exe.config
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\PredmetniZadatak2.exe
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\PredmetniZadatak2.pdb
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\GMap.NET.Core.dll
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\GMap.NET.WindowsForms.dll
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.csprojAssemblyReference.cache
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\MainWindow.g.cs
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\App.g.cs
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2_Content.g.cs
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2_MarkupCompile.cache
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2_MarkupCompile.lref
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\MainWindow.baml
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.g.resources
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.Properties.Resources.resources
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.csproj.GenerateResource.cache
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.csproj.CoreCompileInputs.cache
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.csproj.CopyComplete
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.exe
+D:\FTN\Cetvrta godina\Blok 5\Vezbe\Zadatak2\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.pdb
+E:\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\PredmetniZadatak2.exe.config
+E:\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\PredmetniZadatak2.exe
+E:\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\PredmetniZadatak2.pdb
+E:\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\GMap.NET.Core.dll
+E:\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\GMap.NET.WindowsForms.dll
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.csprojResolveAssemblyReference.cache
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\MainWindow.g.cs
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\App.g.cs
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2_Content.g.cs
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2_MarkupCompile.cache
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2_MarkupCompile.lref
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\MainWindow.baml
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.g.resources
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.Properties.Resources.resources
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.csproj.GenerateResource.Cache
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.csproj.CoreCompileInputs.cache
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.exe
+E:\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.pdb
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\PredmetniZadatak2.exe.config
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\PredmetniZadatak2.exe
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\PredmetniZadatak2.pdb
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\GMap.NET.Core.dll
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.csprojResolveAssemblyReference.cache
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\MainWindow.g.cs
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\App.g.cs
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2_Content.g.cs
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2_MarkupCompile.cache
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2_MarkupCompile.lref
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\MainWindow.baml
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.g.resources
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.Properties.Resources.resources
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.csproj.GenerateResource.Cache
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.csproj.CoreCompileInputs.cache
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.exe
+C:\Users\e3141-2015\Desktop\PredmetniZadatak2\PredmetniZadatak2\obj\Debug\PredmetniZadatak2.pdb

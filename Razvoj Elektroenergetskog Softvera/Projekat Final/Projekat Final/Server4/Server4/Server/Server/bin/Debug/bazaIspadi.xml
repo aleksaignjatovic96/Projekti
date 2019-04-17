@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListaSvihIspada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UkupnaListaSvihIspada>
+    <Ispad>
+      <Vreme>2018-06-03T16:33:53</Vreme>
+      <Opis>Kvar na jezgru transformatora</Opis>
+      <Napon>SrednjiNapon</Napon>
+      <Status>UProgresu</Status>
+      <Id>0</Id>
+      <ListaAkcija>
+        <Akcija>
+          <OpisAkcije>Sprzen Primar.</OpisAkcije>
+          <Vreme>2018-06-03T16:22:51</Vreme>
+        </Akcija>
+        <Akcija>
+          <OpisAkcije>Sprzen Sekundar.</OpisAkcije>
+          <Vreme>2018-03-06T16:23:11</Vreme>
+        </Akcija>
+      </ListaAkcija>
+      <Element>
+        <Id>25</Id>
+        <Naziv>Transformator</Naziv>
+        <X>255</X>
+        <Y>664</Y>
+      </Element>
+    </Ispad>
+    <Ispad>
+      <Vreme>2018-12-12T12:12:12</Vreme>
+      <Opis>KRILATI</Opis>
+      <Napon>SrednjiNapon</Napon>
+      <Status>Novo</Status>
+      <Id>4</Id>
+      <ListaAkcija>
+        <Akcija>
+          <OpisAkcije>POL</OpisAkcije>
+          <Vreme>2018-12-12T12:12:12</Vreme>
+        </Akcija>
+      </ListaAkcija>
+      <Element>
+        <Id>28</Id>
+        <Naziv>KROL</Naziv>
+        <X>45</X>
+        <Y>45</Y>
+      </Element>
+    </Ispad>
+    <Ispad>
+      <Vreme>2017-11-13T06:06:25</Vreme>
+      <Opis>Kvar na prekidacu.</Opis>
+      <Napon>VisokiNapon</Napon>
+      <Status>Testiranje</Status>
+      <Id>5</Id>
+      <ListaAkcija>
+        <Akcija>
+          <OpisAkcije>Izbijen iz zida.</OpisAkcije>
+          <Vreme>2017-11-13T06:05:29</Vreme>
+        </Akcija>
+      </ListaAkcija>
+      <Element>
+        <Id>56</Id>
+        <Naziv>Prekidac</Naziv>
+        <X>644</X>
+        <Y>234</Y>
+      </Element>
+    </Ispad>
+    <Ispad>
+      <Vreme>0001-01-01T01:01:01</Vreme>
+      <Opis>asdasdasd</Opis>
+      <Napon>SrednjiNapon</Napon>
+      <Status>Novo</Status>
+      <Id>5252</Id>
+      <ListaAkcija>
+        <Akcija>
+          <OpisAkcije>asdasda</OpisAkcije>
+          <Vreme>0001-01-01T01:01:01</Vreme>
+        </Akcija>
+      </ListaAkcija>
+      <Element>
+        <Id>6363</Id>
+        <Naziv>asasda</Naziv>
+        <X>242</X>
+        <Y>353</Y>
+      </Element>
+    </Ispad>
+  </UkupnaListaSvihIspada>
+</ListaSvihIspada>

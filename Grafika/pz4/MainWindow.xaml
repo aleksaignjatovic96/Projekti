@@ -1,0 +1,131 @@
+﻿<Window x:Class="pz4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pz4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="768" Width="1024">
+    <Grid>
+        <Viewport3D Name="viewport" >
+            
+            <Viewport3D.Camera>
+                <PerspectiveCamera x:Name="camera" 
+                                   Position="0,0,3"   
+                                   LookDirection="0.0,0.0,-1"                                    
+
+                                   UpDirection="0,1,0" 
+                                   FieldOfView="45" />
+            </Viewport3D.Camera>
+
+            <ModelVisual3D  >
+                <ModelVisual3D.Content>
+                    <Model3DGroup x:Name="group1">
+                        <Model3DGroup.Transform>
+                            <Transform3DGroup>
+                                <TranslateTransform3D x:Name="translacija1" OffsetX="0" OffsetY="0" OffsetZ="0"/>
+                            </Transform3DGroup>
+                        </Model3DGroup.Transform>
+                    </Model3DGroup>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+
+            <ModelVisual3D  >
+                <ModelVisual3D.Content>
+                    <Model3DGroup x:Name="group2">
+                        <Model3DGroup.Transform>
+                            <Transform3DGroup>
+                                <TranslateTransform3D x:Name="translacija2" OffsetX="0" OffsetY="0" OffsetZ="0"/>
+                            </Transform3DGroup>
+                        </Model3DGroup.Transform>
+                    </Model3DGroup>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+
+            <ModelVisual3D  >
+                <ModelVisual3D.Content>
+                    <Model3DGroup x:Name="group3">
+                        <Model3DGroup.Transform>
+                            <Transform3DGroup>
+                                <TranslateTransform3D x:Name="translacija3" OffsetX="0" OffsetY="0" OffsetZ="0"/>
+                            </Transform3DGroup>
+                        </Model3DGroup.Transform>
+                    </Model3DGroup>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+
+            <ModelVisual3D  >
+                <ModelVisual3D.Content>
+                    <Model3DGroup x:Name="group4">
+                        <Model3DGroup.Transform>
+                            <Transform3DGroup>
+                                <TranslateTransform3D x:Name="translacija4" OffsetX="0" OffsetY="0" OffsetZ="0"/>
+                            </Transform3DGroup>
+                        </Model3DGroup.Transform>
+                    </Model3DGroup>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+
+
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+                    
+                    <Model3DGroup x:Name="group">
+                        <DirectionalLight Color="White" Direction="-1, -1, -3" />
+
+                        <GeometryModel3D>
+                            
+                            <GeometryModel3D.Geometry>
+                                <MeshGeometry3D Positions = "-1,-1,0 1,-1,0 1,1,0 -1,1,0" 
+                                                TriangleIndices = "0,1,2 2,3,0"
+                                                TextureCoordinates="0,1 1,1 1,0 0,0"/>
+
+                            </GeometryModel3D.Geometry>
+                            <GeometryModel3D.Material>
+                                <DiffuseMaterial>
+                                    <DiffuseMaterial.Brush>
+                                        <ImageBrush ImageSource="Resources/PZ4map.jpg" />
+                                    </DiffuseMaterial.Brush>
+                                </DiffuseMaterial>
+                            </GeometryModel3D.Material>
+                            <GeometryModel3D.BackMaterial>
+                                <MaterialGroup>
+                                    <DiffuseMaterial>
+                                        <DiffuseMaterial.Brush>
+                                            <SolidColorBrush Color="Blue"/>
+                                        </DiffuseMaterial.Brush>
+                                    </DiffuseMaterial>
+                                </MaterialGroup>
+                            </GeometryModel3D.BackMaterial>
+
+                        </GeometryModel3D>
+
+                        <Model3DGroup.Transform>
+                            <Transform3DGroup>
+                                <TranslateTransform3D x:Name="translacija0" OffsetX="0" OffsetY="0" OffsetZ="0"/>
+                            </Transform3DGroup>
+                        </Model3DGroup.Transform>
+
+                    </Model3DGroup>
+                    
+                </ModelVisual3D.Content>
+                
+                
+            </ModelVisual3D>
+
+
+        </Viewport3D>
+
+
+
+        <Canvas Name="canvas" Background="Transparent" MouseDown="Grid_MouseDown" MouseMove="Grid_MouseMove" MouseUp="Grid_MouseUp" MouseWheel="Grid_MouseWheel" >
+        <StackPanel Opacity="0.6"  Margin="10" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <CheckBox Content="Substations" IsChecked="{Binding ShowSubstationVisual3D, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <CheckBox Content="Nodes" IsChecked="{Binding ShowNodeVisual3D, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <CheckBox Content="Switches" IsChecked="{Binding SwitchNodeVisual3D, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <CheckBox Content="Lines" IsChecked="{Binding LineNodeVisual3D, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>        
+        </Canvas>
+
+    </Grid>
+</Window>
